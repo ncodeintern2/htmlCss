@@ -51,5 +51,52 @@ h1{
 /* Header navbar style */
 
 .header{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5.4rem;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2em;
+    font-size: 1.5rem;
+}
+
+.navlist .navbar_link :hover ,
+.navlist .navbar_link :active{
+ color: var(--helper-color);   
+
+}
+
+.navbar_link{
+    text-transform: uppercase ;
+}
+
+.mobile_nav_icon{
+    font-size: 5rem;
+
+}
+
+.mobile_nav_icon[name="close"]{
+    display:none ;
+
+}
+
+.section{
+    padding: 9.6rem 0;
+}
+
+.grid{
+    display: grid;
+    gap: 9.6rem;
+
+    grid-template-columns: repeat(2,1fr);
 }

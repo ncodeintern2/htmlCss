@@ -14,21 +14,23 @@ const First = () => {
             </Helmet>
             <header className={classes.header}>
 
-                <a href='#'>  Thapa tecvhnival</a>
+                <a href='#' className={classes.logo}>  Thapa tecvhnival</a>
                 <nav className={classes.navbar}>
                     <ul className={classes.navlist}>
-                        <li><a href='#'>Home</a></li>
-                        <li><a href='#'>Home</a></li>
-                        <li><a href='#'>Home</a></li>
+                        <li><a href='#' className={classes.navbar_link}>Home</a></li>
+                        <li><a href='#' className={classes.navbar_link}>Home</a></li>
+                        <li><a href='#' className={classes.navbar_link}>Home</a></li>
+                        <li><a href='#' className="btn btn-outline-primary">Free Code</a></li>
+
                     </ul>
                 </nav>
                 <div>
-                    <ion-icon name="menu-outline"></ion-icon>
-                    <ion-icon name="close-outline"></ion-icon>
+                    <ion-icon name="menu-outline" className={classes.mobile_nav_icon}></ion-icon>
+                    <ion-icon name="close-outline" className={classes.mobile_nav_icon}></ion-icon>
                 </div>
             </header>
             <main>
-                <section className={classes.section}>
+                <section className= {classes.section } >
                     <div className={classes.container}>
                         <div className={classes.hero_data}>
                             <h1 className={classes.primary_hending}>fdfdfd ffdefdfd</h1>
@@ -37,7 +39,7 @@ const First = () => {
                             </p>
                             <a href='#'>Get Started</a>
                             <div className={classes.hero_icon}>
-                                <div>
+                                <div className={classes.grid }>
                                     <div className={classes.hero_icon_style}>
                                         <ion-icon name="logo-react"></ion-icon>
 

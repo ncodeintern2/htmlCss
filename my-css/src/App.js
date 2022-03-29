@@ -1,10 +1,12 @@
 import First from "./First";
+import Second from "./Second";
 
 
 const App =() => {
   return (
     <div> 
-      <First/>
+      {/* <First/> */}
+      <Second/>
     </div>
   );
 }
